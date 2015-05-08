@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>UPLOADEN</title>
+        <link rel="stylesheet" href="resources/css/grid.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
+    </head>
+    <body>
+    	<!-- HEADER -->
+    	<header>
+	       <div class="logo">
+	       		<a href="index.html">
+	       			<img src="./resources/image/logo.png" alt="logo">
+	       		</a>
+	       </div>
+		    <nav class="header" id="menu-holder">
+		       <ul class="content">
+		       		<li><a href="index.html">Home</a></li>
+		       		<li><a href="nieuwste.html">Nieuwste</a></li>
+		       		<li><a href="blog.html">Blog</a></li>
+		       		<li><a href="favorieten.html">Favorieten</a></li>	
+		       		<li><a href="uploaden.html">Uploaden</a></li>
+		       		<li><a href="contact.html">Contact</a></li>
+		       </ul>
+		    </nav>
+		    <!--HAMBURGER TOGGLE-->
+			<script type="text/javascript">
+				$(document).ready(function(){
+				 
+				        $(".slidingDiv").hide();
+				        $(".show_hide").show();
+				 
+				    $('.show_hide').click(function(){
+				    $(".slidingDiv").slideToggle();
+				    });
+				 
+				});
+			</script>
+			<!-- HAMBURGER MENU -->
+			<a href="#" class="show_hide"></a>
+			<div class="slidingDiv">
+				<ul id="dropdown-items">
+					<li><a href="index.html">Home</a></li>
+		       		<li><a href="nieuwste.html">Nieuwste</a></li>
+		       		<li><a href="blog.html">Blog</a></li>
+		       		<li><a href="favorieten.html">Favorieten</a></li>	
+		       		<li><a href="uploaden.html">Uploaden</a></li>
+		       		<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="banner">
+			<div class="grid pagetitle">
+				<p id="pagetitle">Uploaden</p>
+				<p>U bent hier: Uploaden</p>
+			</div>
+			
+		</div>
+
+		<!-- CONTAINER -->
+		<div class="container">
+    		<div class="grid">
+				<div class="col-1-1 one">
+					<div class="content oneblok">
+						<div class="col-4-12 upload">
+							<h3>LOGIN OM MEE TE DOEN</h3>
+							<form action="inloggen.html">
+								<br>
+								<input  class="inputform" name="naam" placeholder="" required>
+								<input type="text" class="inputform" name="email" placeholder="" required>
+								<br>	
+								<input type="submit" value="Verzenden" class="submit">
+							</form>
+						</div>
+						<div class="col-4-12 uploadinfo">
+							<h3>DOE MEE, UPLOAD JE SPOT!</h3>
+							<br>
+							<p>
+								’s-Hertogenbosch is een prachtige stad met veel cultuur en toeristische attracties. Althans, dat vinden wij. Maar we zijn ook erg benieuwd wat jij van de stad vindt. Misschien heb jij een heel andere kijk op wat mooi is van de stad?
+							</p>
+							<br>
+							<h3>VOOR WIE DOE JE HET?</h3>
+							<br>
+							<p>
+								Door je favoriete plek kenbaar te maken help je ons als organisatie om onze rondleidingen en activiteiten beter te laten aansluiten op jongeren. Zo willen we graag weten wat jongeren leuk, mooi of juist uniek vinden.
+							</p>
+						</div>
+						<div class="col-4-12 uploadinfo">
+							<h3>JE KUNT OOK ZELF ONTDEKKEN</h3>
+							<br>
+							<p>
+								Het mooie aan PARTICIPATION is dat het een platform is waar je kunt geven en nemen. Zo kun je inbreng geven over wat je mooi vindt aan de stad. Maar daarnaast kun je ook zelf ontdekken wat anderen interessant vinden. Het geven van jouw mening wordt erg gewaardeerd door de organisatie en andere gebruikers. Maar alleen ontdekken is natuurlijk ook prima. 							</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+			<!-- Footer -->
+			<footer>
+	    		<div class="grid grid-pad">
+					<div class="col-1-3">
+						<div class="content footer">
+							<h5>DOE MEE EN UPLOAD JE SPOT! </h5>
+							<br>
+							<p id="foottekst">
+								PARTICIPATION is een online platform waar je de favoriete spots van jongeren kunt zien van de stad ’s-Hertogenbosch. Je kunt ook zelf een plek voorstellen door een account aan te maken.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-1-3">
+					<div class="content footer">
+						<h5>SITEMAP</h5>
+						<br>
+						<ul id="sitemap">
+				       		<li><a href="index.html">Home</a></li>
+				       		<li><a href="nieuwste.html">Nieuwste</a></li>
+				       		<li><a href="blog.html">Blog</a></li>
+				       		<li><a href="favorieten.html">Favorieten</a></li>	
+				       		<li><a href="uploaden.html">Uploaden</a></li>
+				       		<li><a href="contact.html">Contact</a></li>
+				       	</ul>
+					</div>
+				</div>
+
+				<div class="col-1-3">
+					<div class="content footer">
+						<h5>CONTACT</h5>
+						<br>
+						<ul id="contact">
+				       		<li>PLAATS: 's-Hertogenbosch</li>
+				       		<li>TEL: 073 - 613 50 98 </li>
+				       		<li>MAIL: algemeen@kringvrienden.nl</li>
+				       		<li>WEB: www.kringvrienden.nl</li>
+				       	</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		</div>	
+    </body>
+</html>
